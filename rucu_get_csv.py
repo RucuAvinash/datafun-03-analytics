@@ -1,6 +1,6 @@
 """
 This example file fetches a CSV file from the web 
-and saves it to a local file named 2020_happiness.csv in a folder named example_data.
+and saves it to a local file named 2020_happiness.csv in a folder named data.
 
 For best results, add the provided utils_logger.py file 
 to the same folder as this file.
@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "example_data"
+FETCHED_DATA_DIR = "rucu_data"
 
 #####################################
 # Define Functions
@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
+    csv_url = 'https://cdn.wsform.com/wp-content/uploads/2021/08/year-future.csv'
     logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(FETCHED_DATA_DIR, "2020_happiness.csv", csv_url)
+    fetch_csv_file(FETCHED_DATA_DIR, "year_future.csv", csv_url)
 
 #####################################
 # Conditional Execution
