@@ -1,0 +1,42 @@
+2025-09-11 15:05:50.901 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:05:50.902 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:05:50.902 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: [Errno 2] No such file or directory: 'rucu_data\\gutenberg.txt'
+2025-09-11 15:05:50.903 | INFO     | __main__:process_text_file:63 - Processed text file: rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:05:50.904 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:08:07.428 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:08:07.428 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:08:07.428 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: [Errno 2] No such file or directory: 'rucu_data\\gutenberg.txt'
+2025-09-11 15:08:07.429 | INFO     | __main__:process_text_file:63 - Processed text file: rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:08:07.429 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:17:01.096 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:17:01.098 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:17:01.098 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: [Errno 2] No such file or directory: 'rucu_data\\gutenberg.txt'
+2025-09-11 15:17:01.099 | INFO     | __main__:process_text_file:63 - Processed text file: rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:17:01.099 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:21:51.360 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:21:51.361 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:21:51.361 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: [Errno 2] No such file or directory: 'C:\\Repos\\datafun-03-analytics\\rucu_data\\rucu_data\\gutenberg.txt'
+2025-09-11 15:21:51.362 | INFO     | __main__:process_text_file:63 - Processed text file: C:\Repos\datafun-03-analytics\rucu_data\rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:21:51.362 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:22:17.348 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:22:17.349 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:22:17.352 | INFO     | __main__:process_text_file:63 - Processed text file: C:\Repos\datafun-03-analytics\rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:22:17.352 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:22:43.126 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:22:43.127 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:22:43.127 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: 'str' object has no attribute 'open'
+2025-09-11 15:22:43.128 | INFO     | __main__:process_text_file:63 - Processed text file: gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:22:43.128 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:22:55.510 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:22:55.510 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:22:55.510 | ERROR    | __main__:count_word_occurrences:38 - Error reading text file: 'str' object has no attribute 'open'
+2025-09-11 15:22:55.511 | INFO     | __main__:process_text_file:63 - Processed text file: gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:22:55.511 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:23:29.568 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:23:29.569 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:23:29.571 | INFO     | __main__:process_text_file:63 - Processed text file: C:\Repos\datafun-03-analytics\rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_romeo_word_count.txt
+2025-09-11 15:23:29.571 | INFO     | __main__:<module>:72 - Text processing complete.
+2025-09-11 15:24:29.494 | INFO     | utils_logger:<module>:41 - Logging to file: logs\project_log.log
+2025-09-11 15:24:29.494 | INFO     | __main__:<module>:70 - Starting text processing...
+2025-09-11 15:24:29.496 | INFO     | __main__:process_text_file:63 - Processed text file: C:\Repos\datafun-03-analytics\rucu_data\gutenberg.txt, Word count saved to: rucu_processed\text_gutenberg_word_count.txt
+2025-09-11 15:24:29.496 | INFO     | __main__:<module>:72 - Text processing complete.
