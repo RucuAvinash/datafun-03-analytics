@@ -80,6 +80,7 @@ git push -u origin main
 11.            c. excel_feedback_github_count - Counts the number of time 'GitHub' occurrs in a column
 12.            d. text_romeo_word_count - counts the number of times the word 'Romeo' occurs in the text file.       
     
+
     Execution for Fetchers:
     py rucu_get_csv.py
     py rucu_get_excel.py
@@ -91,3 +92,9 @@ git push -u origin main
     py rucu_process_excel.py
     py rucu_process_json.py
     py rucu_process_text.py
+
+    Execution of master script:
+
+    py rucu_master_script.py
+
+Note: files in rucu_data are used for self exploration and practice. 
