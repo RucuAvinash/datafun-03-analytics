@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""
+Master script to run fetchers and processors in sequence
+"""
+
+import subprocess
+import sys
+from utils_logger import logger
+
+def run_scripts():
+    """List of scripts to run"""
+    scripts = [
+        'rucu_get_excel.py',
+        'rucu_process_excel.py',
+        'rucu_get_csv.py',
+        'rucu_process_csv.py',
+        'rucu_get_text.py',
+        'rucu_process_text.py',
+        'rucu_get_json.py',
+        'rucu_process_json.py'
+    ]
+    
+    """Length of scripts list"""
+    
+    print(f"Running {len(scripts)} scripts..")
+    
+    for i, script in enumerate(scripts, 1): #Using enumate to show index value along with actual script. Default is 0 overide by telling it start from 1
+        print(f"\n[{i}/{len(scripts)}] Running {script}...") #printing progress inside loop
+        
+        try:
+            result = subprocess.run([sys.executable, script], check=True) # run the process, raise an error and stop master sccript
+            print(f"{script} completed successfully")
+        except subprocess.CalledProcessError as e: #Exception handling
+            print(f"{script} failed with error code {e.returncode}")
+        except FileNotFoundError: #Exception handling
+            print(f"{script} not found")
+    
+    print("\nAll done..all scripts executed!")
+
+
+if __name__ == "__main__":
+    run_scripts()
