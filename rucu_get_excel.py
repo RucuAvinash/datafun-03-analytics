@@ -27,7 +27,7 @@ from utils_logger import logger
 # Declare Global Variables
 #####################################
 
-FETCHED_DATA_DIR = "rucu_data"
+FETCHED_DATA_DIR = "data"
 
 #####################################
 # Define Functions
@@ -93,7 +93,7 @@ def main():
     """
     Main function to demonstrate fetching Excel data.
     """
-    excel_url = 'https://www.exceldemy.com/wp-content/uploads/2023/12/Supermarket-Sales-Sample-Data.xlsx'
+    excel_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/Feedback.xlsx'
     logger.info("Starting Excel fetch demonstration...")
     fetch_excel_file(FETCHED_DATA_DIR, "Supermarket_sales.xlsx", excel_url)
 

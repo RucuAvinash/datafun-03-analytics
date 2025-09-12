@@ -23,8 +23,8 @@ from utils_logger import logger
 #####################################
 
 
-FETCHED_DATA_DIR: str = "rucu_data"
-PROCESSED_DIR: str = "rucu_processed"
+FETCHED_DATA_DIR: str = "data"
+PROCESSED_DIR: str = "processed"
 
 #####################################
 # Define Functions
@@ -64,10 +64,10 @@ def process_csv_file():
     """Read a CSV file, analyze Ladder score, and save the results."""
     
   
-    input_file = pathlib.Path(FETCHED_DATA_DIR, "year_future.csv")
+    input_file = pathlib.Path(FETCHED_DATA_DIR, "2020_happiness.csv")
     
 
-    output_file = pathlib.Path(PROCESSED_DIR, "year_future.txt")
+    output_file = pathlib.Path(PROCESSED_DIR, "happiness_ladder_score_stats.txt")
     
 
     stats = analyze_ladder_score(input_file)

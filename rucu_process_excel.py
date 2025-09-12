@@ -25,7 +25,7 @@ from utils_logger import logger
 #####################################
 
 
-FETCHED_DATA_DIR: str = "rucu_data"
+FETCHED_DATA_DIR: str = "data"
 PROCESSED_DIR: str = "processed"
 
 #####################################
@@ -50,10 +50,10 @@ def process_excel_file():
     """Read an Excel file, count occurrences of 'GitHub' in a specific column, and save the result."""
     
 
-    input_file = pathlib.Path(FETCHED_DATA_DIR, "supermarket_sales.xlsx")
+    input_file = pathlib.Path(FETCHED_DATA_DIR, "Feedback.xlsx")
 
 
-    output_file = pathlib.Path(PROCESSED_DIR, "supermarket.txt")
+    output_file = pathlib.Path(PROCESSED_DIR, "excel_feedback_github_count.txt")
 
 
     column_to_check = "A"  
