@@ -96,7 +96,7 @@ def main():
     """
     txt_url = 'https://raw.githubusercontent.com/denisecase/datafun-03-analytics/main/hosted/romeo.txt'
     logger.info("Starting text fetch demonstration...")
-    fetch_txt_file(FETCHED_DATA_DIR, "gutenberg.txt", txt_url)
+    fetch_txt_file(FETCHED_DATA_DIR, "romeo.txt", txt_url)
 
 #####################################
 # Conditional Execution

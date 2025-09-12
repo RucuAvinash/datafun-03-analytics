@@ -93,9 +93,9 @@ def main():
     """
     Main function to demonstrate fetching CSV data.
     """
-    csv_url = 'https://cdn.wsform.com/wp-content/uploads/2021/08/year-future.csv'
+    csv_url = 'https://raw.githubusercontent.com/MainakRepositor/Datasets/master/World%20Happiness%20Data/2020.csv'
     logger.info("Starting CSV fetch demonstration...")
-    fetch_csv_file(FETCHED_DATA_DIR, "year_future.csv", csv_url)
+    fetch_csv_file(FETCHED_DATA_DIR, "2020_happiness.csv", csv_url)
 
 #####################################
 # Conditional Execution
